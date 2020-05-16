@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/ic_main"
+            android:title="Главная" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_who_is_who"
+            android:title="Кто есть Кто"/>
+        <item
+            android:id="@+id/nav_talkshow"
+            android:icon="@drawable/ic_branches"
+            android:title="Отделения партии" />
+        <item
+            android:id="@+id/nav_disclaimer"
+            android:icon="@drawable/ic_we_are_in_net"
+            android:title="Мы в сети" />
+        <item
+            android:id="@+id/nav_close"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Выход" />
+
+    </group>
+
+</menu>
